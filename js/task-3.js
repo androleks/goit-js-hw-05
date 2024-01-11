@@ -4,7 +4,11 @@
 
 
 
+function sortByDescendingFriendCount(users) {
 
+    
+    return ();
+}
 
 
 console.log(
