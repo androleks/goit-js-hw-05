@@ -3,7 +3,7 @@
 
 const users = [];
 const getUserNames = (users) => {
-  names = [];
+  const names = [];
   for (const user of users) {
   names.push(user['name']);
   }
