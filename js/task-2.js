@@ -10,16 +10,26 @@
 // Використовуй метод includes() для перевірки, чи масив friends містить friendName.
 
 const users = [];
-const getUsersWithFriend = (users, friendName) => {
+const friends = [];
 
-  const usersFriends = [];
+const getUsersWithFriend = (users, friendName) => {
+  const UsersWithFriend = users.filter(friends => { return (friends.includes(friendName) === true) } ) ;
+
+}
+  // users.filter(friends.includes(friendName));
+// const names = [];
+// const friends = [];
+//   for (const user of users) {
+//   names.push(user['name']);
+//   friends.push(user['friends']);
+//   };
   
-  usersFriends = users.filter(friends => { console.log(friends.includes(friendName)); });
+//   const UsersWithFriend = users.filter(friends => { friends.includes(friendName) } ) ;
   
-    return (usersFriends);
+//   return UsersWithFriend;
       
     
-};
+
 
 
 

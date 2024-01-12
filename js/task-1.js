@@ -3,10 +3,11 @@
 
 const users = [];
 const getUserNames = (users) => {
-  const names = [];
-  for (const user of users) {
-  names.push(user['name']);
-  }
+  // const names = [];
+  // for (const user of users) {
+  // names.push(user['name']);
+  // }
+  const names = users.map(user => user.name);
    return (names);
   }
 
