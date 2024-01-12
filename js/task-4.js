@@ -1,12 +1,14 @@
-Напиши стрілочну функцію getTotalBalanceByGender(users, gender), яка прийматиме два параметра:
+// Напиши стрілочну функцію getTotalBalanceByGender(users, gender), яка прийматиме два параметра:
 
-перший параметр users — масив об’єктів користувачів,
-другий параметр gender — рядок, що зберігає стать.
-Функція має використовувати ланцюжок виклику методів та повертати загальний баланс користувачів(властивість balance), стать яких(властивість gender) збігається зі значенням параметра gender.
+// перший параметр users — масив об’єктів користувачів,
+// другий параметр gender — рядок, що зберігає стать.
+// Функція має використовувати ланцюжок виклику методів та повертати загальний баланс користувачів(властивість balance), стать яких(властивість gender) збігається зі значенням параметра gender.
 
 
-function getTotalBalanceByGender(users, gender) {
-    return ();
+const getTotalBalanceByGender = (users, gender) => {
+    (const totalUsersByGender = users.filter(({ userGender }) => userGender === users['gender'] ; )) => { const TotalBalanceByGender = reduce((balance, element) => { balance += element }, 0); }
+    
+    return (TotalBalanceByGender);
 }
 
 
